@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 app = Quart(__name__)
 
-website = input("Enter ur site: ")
+website = input("Введіть своє посилання: <google.com> ")
 
 def get(url,headers):
 	return requests.get(url,headers=headers)
